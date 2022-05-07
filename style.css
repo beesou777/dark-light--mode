@@ -1,0 +1,68 @@
+.beesou{
+    font-size: 2.4rem;
+
+}
+
+ul li a{
+    padding: 0 12px;
+    margin:0 20px;
+    font-size: 1.6rem;
+}
+body{
+    background:var(--primary-color);
+}
+.card{
+    background:var(--primary-color);
+    color:var(--secondary-color);
+    height: 80vh;
+    font-size: 1.6rem;
+    border: none;
+    width: 40%;
+}.card-title{
+    font-size: 3rem;
+    margin-top: 150px;
+}
+.rounded{
+    height: 400px;
+    width: 500px;
+    border-radius: 360px;
+    top: 25%;
+    position: absolute;
+    left: 60%;
+}
+:root{
+    --primary-color:#333;
+    --secondary-color:#fff;
+}
+ .theme{
+     --primary-color:#fff;
+     --secondary-color:#333;
+ }
+#sun{
+    font-size: 1rem;
+}
+i{
+    font-size: 40px;
+    cursor: pointer;
+   color: #fff;
+}
+.close{
+ display: none;
+}
+.open{
+    display: none;
+}
+.active{
+    display: block;
+}
+ul li a:hover{
+
+    background: rgb(207, 111, 37);
+    border-radius: 10px;
+    transition: 1s;
+    color: #333;
+}
+.lamo, .saman:hover {
+    background-color: #666;
+    color: white;
+  }
